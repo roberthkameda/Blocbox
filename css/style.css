@@ -70,27 +70,28 @@ p {
 @media (min-width: 1920px) {
 	.container {
 		width:1080px;
-	}	
-	.hero {
-		font-size:48px;
-	}
-	.hero {
+	}		
+	header .hero {
 		text-align: center;
 		display:block;
 		position: relative;
 	}
-	.hero h1 {
+	header .hero h1 {
 		font-size:48px;
 		font-weight: normal;
 		margin:95px 0 0;
 	}
-	.hero p {
+	header .hero p {
 		font-size: 22px;
 		line-height: 26px;
 		font-weight: 100;
 		margin:10px 0 40px;
 	}
-}	
+	header .hero img {
+		display: block;
+		margin:3em auto 0;
+	}	
+}
 
 /* HEADER */
 header {
