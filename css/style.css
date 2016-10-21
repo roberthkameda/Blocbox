@@ -312,6 +312,18 @@ header .hero img {
 	font-size:13px;
 	margin-top: 30px;
 }
+.testimonials li:nth-of-type(odd)
+{
+	position: relative;
+	z-index: 1;
+	top: -20px;
+}
+.testimonials li:nth-of-type(even)
+{
+	position: relative;
+	z-index: 1;
+	top: 0px;
+}
 
 /* FOOTER */
 footer {
