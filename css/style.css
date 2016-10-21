@@ -71,23 +71,23 @@ p {
 	.container {
 		width:1080px;
 	}		
-	header .hero {
+	.hero {
 		text-align: center;
 		display:block;
 		position: relative;
 	}
-	header .hero h1 {
+	.hero h1 {
 		font-size:48px;
 		font-weight: normal;
 		margin:95px 0 0;
 	}
-	header .hero p {
+	.hero p {
 		font-size: 22px;
 		line-height: 26px;
 		font-weight: 100;
 		margin:10px 0 40px;
 	}
-	header .hero img {
+	.hero img {
 		display: block;
 		margin:3em auto 0;
 	}	
