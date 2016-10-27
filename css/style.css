@@ -67,23 +67,23 @@ p {
 		width:1170px;
 	}
 }	
-@media (min-width: 1920px) {
-	.container {
-		width:1080px;
-	}		
+@media screen
+	and (min-width: 1080px)
+	and (max-width:1920px;) { 
+			
 	.hero {
 		text-align: center;
 		display:block;
 		position: relative;
 	}
 	.hero h1 {
-		font-size:48px;
+		font-size:144px;
 		font-weight: normal;
 		margin:95px 0 0;
 	}
 	.hero p {
-		font-size: 22px;
-		line-height: 26px;
+		font-size: 66px;
+		line-height: 78px;
 		font-weight: 100;
 		margin:10px 0 40px;
 	}
