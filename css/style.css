@@ -68,9 +68,9 @@ p {
 	}
 }	
 @media screen
-	and (min-width: 1080px)
-	and (max-width:1920px;) { 
-			
+	and (min-width: 1400px)
+	and (max-width:1920px) {
+
 	.hero {
 		text-align: center;
 		display:block;
