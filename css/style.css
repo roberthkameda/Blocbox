@@ -39,16 +39,16 @@ p {
 	width:96%;
 	float:left;
 	position: relative;
-	min-height; 1px;
+	min-height: 1px;
 	margin: 0 2% 20px;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 	.container {
 		width: 750px;
 	}
 }
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
 	.container {
 		width:970px;
 	}
@@ -62,14 +62,13 @@ p {
 		width:21%;
 	}
 }
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
 	.container {
 		width:1170px;
 	}
 }	
-@media screen
-	and (min-width: 1400px)
-	and (max-width:1920px) {
+@media TV and (min-width: 1400px) 
+and (max-width:1920px) {
 
 	.hero {
 		text-align: center;
@@ -286,7 +285,7 @@ header .hero img {
 }
 .testimonials blockquote:after {
 	top: 100%;
-	left: 13%;
+	left: 4%;
 	border: solid transparent;
 	content: " ";
 	height: 0;
@@ -295,7 +294,7 @@ header .hero img {
 	pointer-events: none;
 	border-top-color: #34495E;
 	border-width: 10px;
-	margin-left: -10px;
+	margin-left: 10px;
 }
 .testimonials img {
 	height: 65px;
@@ -358,8 +357,27 @@ footer .logo{
 	margin: 0 auto;
 	display: block;
 }
-
-@media (min-width: 992px){
+@media screen and (min-width: 322px) 
+and (max-width: 544px) {
+	footer{
+		background-color: #3498DB;
+		background-image: linear-gradient(to left,
+			#3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
+		height: 100px;
+	}
+	footer p, footer nav ul{
+		padding: 2.1em 0;
+		text-align: left;
+	}
+	footer .right-footer-block {
+		background-color: #3498DB;
+	}
+	footer .logo{
+		padding: 1.5em 0 3em 10em;
+	}
+}
+@media screen and (min-width: 545px) 
+and (max-width: 767px) {
 	footer{
 		background-color: #3498DB;
 		background-image: linear-gradient(to left,
@@ -377,6 +395,43 @@ footer .logo{
 		padding: 1.5em 0 3em 10em;
 	}
 }	
+@media screen and (min-width: 768px) 
+and (max-width: 990px) {
+	footer{
+		background-color: #3498DB;
+		background-image: linear-gradient(to left,
+			#3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
+		height: 100px;
+	}
+	footer p, footer nav ul{
+		padding: 2.1em 0;
+		text-align: left;
+	}
+	footer .right-footer-block {
+		background-color: #3498DB;
+	}
+	footer .logo{
+		padding: 1.5em 0 3em 10em;
+	}
+}	
+@media screen and (min-width: 991px) {
+	footer{
+		background-color: #3498DB;
+		background-image: linear-gradient(to left,
+			#3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
+		height: 100px;
+	}
+	footer p, footer nav ul{
+		padding: 2.1em 0;
+		text-align: left;
+	}
+	footer .right-footer-block {
+		background-color: #3498DB;
+	}
+	footer .logo{
+		padding: 1.5em 0 3em 10em;
+	}
+}
 
 /* DASHBOARD */
 .dashboard {
