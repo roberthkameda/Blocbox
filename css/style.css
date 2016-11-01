@@ -340,7 +340,7 @@ footer p, footer nav ul {
 	font-size:14px;
 	font-weight:100;
 	text-align: center;
-	margin: 10px auto 0;
+	margin: 12px auto 0;
 }
 footer nav ul li {
 	list-style-type: none;
@@ -359,7 +359,7 @@ footer .logo{
 	display: block;
 }
 
-@media (min-width: 991px){
+@media (min-width: 992px){
 	footer{
 		background-color: #3498DB;
 		background-image: linear-gradient(to left,
@@ -367,14 +367,14 @@ footer .logo{
 		height: 100px;
 	}
 	footer p, footer nav ul{
-		padding: 2em 0;
+		padding: 2.1em 0;
 		text-align: left;
 	}
 	footer .right-footer-block {
 		background-color: #3498DB;
 	}
 	footer .logo{
-		padding: 2em 0 2em 1.5em;
+		padding: 1.5em 0 3em 10em;
 	}
 }	
 
