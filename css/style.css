@@ -47,7 +47,14 @@ p {
 	.container {
 		width: 750px;
 	}
+    
+
+    
+    
+    
 }
+
+
 @media screen and (min-width: 992px) {
 	.container {
 		width:970px;
@@ -103,9 +110,9 @@ header nav {
 }
 header nav ul {
 	display:inline;
-	text-align: right;
+	text-align: center;
 	float:right;
-	margin:0;
+	margin:1;
 }
 header nav ul > li {
 	list-style-type: none;
@@ -147,6 +154,58 @@ header .hero img {
 	display: block;
 	margin:3em auto 0;
 }
+@media (min-width: 322px) 
+and (max-width: 544px) {
+
+	header nav ul {
+		display:inline;
+		text-align: center;
+		float:right;
+		margin:0; }
+
+	header nav ul > li {
+
+		list-style-type: none;
+		display: inline-block;
+		margin:0 10px;
+		font-size:12px; }
+
+	header .hero h1 {
+
+		font-size:36px;
+		font-weight: normal;
+		margin:95px 0 0;
+}
+	header .hero p {
+
+		font-size: 16px;
+		line-height: 26px;
+		font-weight: 100;
+		margin:10px 0 40px; }
+}
+
+@media (min-width: 545px) 
+and (max-width: 767px) {
+
+	header nav ul > li {
+
+		list-style-type: none;
+		display: inline-block;
+		margin:0 10px;
+		font-size:12px; }
+
+	header .hero h1 {
+
+		font-size:36px;
+		font-weight: normal;
+		margin:95px 0 0;
+}
+	header .hero p {
+
+		font-size: 16px;
+		line-height: 26px;
+		font-weight: 100;
+		margin:10px 0 40px; }
 
 /* BUTTONS */
 .btn {
@@ -357,45 +416,47 @@ footer .logo{
 	margin: 0 auto;
 	display: block;
 }
-@media screen and (min-width: 322px) 
+
+@media (min-width: 322px) 
 and (max-width: 544px) {
-	footer{
+	
+    footer{
 		background-color: #3498DB;
-		background-image: linear-gradient(to left,
-			#3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
-		height: 100px;
+		height: 152px;
 	}
+    
 	footer p, footer nav ul{
-		padding: 2.1em 0;
-		text-align: left;
+        margin-top: 8px;
+       	font-size:12px;
+
 	}
+    
 	footer .right-footer-block {
-		background-color: #3498DB;
+		
 	}
+    
 	footer .logo{
-		padding: 1.5em 0 3em 10em;
+		margin-top: -41px;
 	}
 }
-@media screen and (min-width: 545px) 
+
+@media (min-width: 545px) 
 and (max-width: 767px) {
 	footer{
 		background-color: #3498DB;
-		background-image: linear-gradient(to left,
-			#3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
-		height: 100px;
+		height: 160px;
 	}
 	footer p, footer nav ul{
-		padding: 2.1em 0;
-		text-align: left;
+        margin-top: 7px;
 	}
 	footer .right-footer-block {
-		background-color: #3498DB;
 	}
 	footer .logo{
-		padding: 1.5em 0 3em 10em;
+		margin-top: -70px;
 	}
-}	
-@media screen and (min-width: 768px) 
+}
+
+@media (min-width: 768px) 
 and (max-width: 990px) {
 	footer{
 		background-color: #3498DB;
@@ -404,17 +465,22 @@ and (max-width: 990px) {
 		height: 100px;
 	}
 	footer p, footer nav ul{
-		padding: 2.1em 0;
 		text-align: left;
+		font-size:12px;
+		margin-bottom: -60px;
+
 	}
 	footer .right-footer-block {
 		background-color: #3498DB;
 	}
 	footer .logo{
-		padding: 1.5em 0 3em 10em;
+		padding: 0em 1 10em 0em;
 	}
 }	
-@media screen and (min-width: 991px) {
+
+
+
+@media (min-width: 991px) {
 	footer{
 		background-color: #3498DB;
 		background-image: linear-gradient(to left,
@@ -430,8 +496,11 @@ and (max-width: 990px) {
 	}
 	footer .logo{
 		padding: 1.5em 0 3em 10em;
+
 	}
 }
+
+
 
 /* DASHBOARD */
 .dashboard {
@@ -553,6 +622,7 @@ and (max-width: 990px) {
 	overflow: hidden;
 	padding:20px;
 }
+
 @media (min-width: 460px) {
 	.content {
 		padding: 1.5em 1%;
