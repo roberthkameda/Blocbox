@@ -43,18 +43,6 @@ p {
 	margin: 0 2% 20px;
 }
 
-@media screen and (min-width: 768px) {
-	.container {
-		width: 750px;
-	}
-    
-
-    
-    
-    
-}
-
-
 @media screen and (min-width: 992px) {
 	.container {
 		width:970px;
@@ -110,9 +98,9 @@ header nav {
 }
 header nav ul {
 	display:inline;
-	text-align: center;
+	text-align: right;
 	float:right;
-	margin:1;
+	margin:0;
 }
 header nav ul > li {
 	list-style-type: none;
@@ -154,58 +142,6 @@ header .hero img {
 	display: block;
 	margin:3em auto 0;
 }
-@media (min-width: 322px) 
-and (max-width: 544px) {
-
-	header nav ul {
-		display:inline;
-		text-align: center;
-		float:right;
-		margin:0; }
-
-	header nav ul > li {
-
-		list-style-type: none;
-		display: inline-block;
-		margin:0 10px;
-		font-size:12px; }
-
-	header .hero h1 {
-
-		font-size:36px;
-		font-weight: normal;
-		margin:95px 0 0;
-}
-	header .hero p {
-
-		font-size: 16px;
-		line-height: 26px;
-		font-weight: 100;
-		margin:10px 0 40px; }
-}
-
-@media (min-width: 545px) 
-and (max-width: 767px) {
-
-	header nav ul > li {
-
-		list-style-type: none;
-		display: inline-block;
-		margin:0 10px;
-		font-size:12px; }
-
-	header .hero h1 {
-
-		font-size:36px;
-		font-weight: normal;
-		margin:95px 0 0;
-}
-	header .hero p {
-
-		font-size: 16px;
-		line-height: 26px;
-		font-weight: 100;
-		margin:10px 0 40px; }
 
 /* BUTTONS */
 .btn {
@@ -422,13 +358,11 @@ and (max-width: 544px) {
 	
     footer{
 		background-color: #3498DB;
-		height: 152px;
+		height: 150px;
 	}
     
 	footer p, footer nav ul{
-        margin-top: 8px;
-       	font-size:12px;
-
+        margin-top: -2px;
 	}
     
 	footer .right-footer-block {
@@ -436,25 +370,32 @@ and (max-width: 544px) {
 	}
     
 	footer .logo{
-		margin-top: -41px;
+		margin-top: -23px;
 	}
 }
+
 
 @media (min-width: 545px) 
 and (max-width: 767px) {
 	footer{
 		background-color: #3498DB;
-		height: 160px;
+		background-image: linear-gradient(to left,
+			#3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
+		height: 100px;
 	}
 	footer p, footer nav ul{
-        margin-top: 7px;
+		padding: 2.1em 0;
+		text-align: left;
 	}
 	footer .right-footer-block {
+		background-color: #3498DB;
 	}
 	footer .logo{
-		margin-top: -70px;
+		padding: 1.5em 0 3em 10em;
 	}
 }
+
+
 
 @media (min-width: 768px) 
 and (max-width: 990px) {
@@ -465,16 +406,14 @@ and (max-width: 990px) {
 		height: 100px;
 	}
 	footer p, footer nav ul{
+		padding: 2.1em 0;
 		text-align: left;
-		font-size:12px;
-		margin-bottom: -60px;
-
 	}
 	footer .right-footer-block {
 		background-color: #3498DB;
 	}
 	footer .logo{
-		padding: 0em 1 10em 0em;
+		padding: 1.5em 0 3em 10em;
 	}
 }	
 
@@ -496,7 +435,6 @@ and (max-width: 990px) {
 	}
 	footer .logo{
 		padding: 1.5em 0 3em 10em;
-
 	}
 }
 
