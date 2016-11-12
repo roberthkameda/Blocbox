@@ -45,7 +45,7 @@ p {
 
 @media (min-width: 322px) 
 and (max-width: 544px) {
-	.one-half, .one-third, .one-fourth {
+	.one-half { 
 		width:46%;
 		position:relative;
 		min-height: 1px;
@@ -363,36 +363,79 @@ footer .logo{
 	display: block;
 }
 
+/* MEDIA QUERY */
+ 
+@media (min-width: 322px) 
+and (max-width: 544px) {
+	.one-half { 
+		width:46%;
+		position:relative;
+		min-height: 1px;
+		margin: 0 2% 20px; 
+	}
+	header nav ul {
+		display: inline;
+		float: right;
+	}
+	header nav ul > li {
+		list-style-type: none;
+		margin: 6px -3px;
+	}
+}
+
+@media (min-width: 545px) 
+and (max-width: 767px) {
+	.one-half { 
+		width:46%;
+		position:relative;
+		min-height: 1px;
+		margin: 0 2% 20px; 
+	}
+	header nav ul > li {
+		list-style-type: none;
+		margin: 9px 6px;
+	}
+}
+
+@media (min-width: 322px) 
+and (max-width: 544px) {
+	header .hero h1 {
+		font-size: 36px;
+		font-weight: normal;
+		margin:16px 0 0; 
+	}
+	header .hero p {
+    	font-size: 15px;
+    	line-height: 20px;
+    	font-weight: 100;
+    	margin: 6px 0px 30px;
+    }
+}
+
+
 @media (min-width: 322px) 
 and (max-width: 544px) {
 	
     footer{
 		background-color: #3498DB;
-		height: 150px;
+		height: 128px;
 	}
-    
 	footer p, footer nav ul{
-        margin-top: 14px;
+        margin-top: 1px;
+        font-size: 11px
 	}
-    
-	footer .right-footer-block {
-		
+	footer .right-footer-block {	
 	}
-    
 	footer .logo{
-		margin-top: -22px;
-		padding: 1.5em 0 4em 5em;
-
+		margin-top: -6px;
+		padding: 0em 0 6em 0em;
 	}
 }
-
 
 @media (min-width: 545px) 
 and (max-width: 767px) {
 	footer{
 		background-color: #3498DB;
-		background-image: linear-gradient(to left,
-			#3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
 		height: 100px;
 	}
 	footer p, footer nav ul{
@@ -403,7 +446,9 @@ and (max-width: 767px) {
 		background-color: #3498DB;
 	}
 	footer .logo{
-		padding: 1.5em 0 3em 10em;
+		margin: -84px auto;
+		display: block;
+		padding: 1.5em 0px 5em 23em;	
 	}
 }
 
@@ -427,8 +472,6 @@ and (max-width: 990px) {
 	}
 }	
 
-
-
 @media (min-width: 991px) {
 	footer{
 		background-color: #3498DB;
@@ -447,8 +490,6 @@ and (max-width: 990px) {
 		padding: 1.5em 0 3em 10em;
 	}
 }
-
-
 
 /* DASHBOARD */
 .dashboard {
