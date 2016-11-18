@@ -161,10 +161,6 @@ header .hero img {
 	position: relative;
 	margin-top: 25px;
 }
-.box.middle {
-	min-height: 485px;
-	margin-top:0px;
-}
 .box h3 {
 	font-family: "Lato", Helvetica, Arial, sans-serif;
 	font-weight: 600;
