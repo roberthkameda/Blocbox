@@ -35,6 +35,7 @@ p {
 .container:after {
 	clear:both;
 }
+
 .one-half, .one-third, .one-fourth {
 	width:96%;
 	float:left;
@@ -42,6 +43,36 @@ p {
 	min-height: 1px;
 	margin: 0 2% 20px;
 }
+
+@media (min-width: 768px) {
+  .container {
+     width: 750px;
+  }
+ }
+
+@media (min-width: 992px) {
+  .container {
+     width: 970px;
+    }
+  .one-half {
+     width: 46%;
+   }
+   .one-third {
+      width: 29.333333%;
+   }
+   .one-fourth {
+      width: 21%;
+   }
+}
+
+@media (min-width: 1200px) {
+  .container {
+      width: 1170px;
+  }
+}
+
+
+
 
 /* HEADER */
 header {
@@ -315,7 +346,15 @@ and (max-width: 544px) {
 		min-height: 1px;
 		margin: 0 2% 20px;
 	}
+    
+    header .hero img {
+	display: block;
+	margin: 3em auto 0;
+    width:70%;    
 }
+ 
+}
+
 @media and (min-width: 991px) {
 	.container {
 		width:970px;
@@ -330,6 +369,7 @@ and (max-width: 544px) {
 		width:21%;
 	}
 }
+
 @media and (min-width: 1200px) {
 	.container {
 		width:1170px;
@@ -359,6 +399,7 @@ and (max-width:1920px) {
 		margin:3em auto 0;
 	}	
 } 
+
 @media (min-width: 322px) 
 and (max-width: 544px) {
 	.one-half { 
@@ -376,6 +417,7 @@ and (max-width: 544px) {
 		margin: 6px -3px;
 	}
 }
+
 @media (min-width: 545px) 
 and (max-width: 767px) {
 	.one-half { 
