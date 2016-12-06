@@ -607,30 +607,30 @@ and (max-width: 990px) {
 .dashboard {
 	background:#F7F7F7;
 }
-.left-nav {
-	height: 100vh;
-	width:14.66666667%;
-	color:#FFFFFF
+.left-nav{
+	height:100vh;
+	width: 14.66666667%;
+	color: #FFFFFF;
 	background: #34495E;
 	background-image: linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
 	float:left;
-	position: fixed;
-	display: block;
+	position: fixed; 
+	display: block; 
 }
 .left-nav .site-logo {
 	padding: 20px 0;
 	background: #34495E;
-	display:block;
+	display: block;
 	text-align: center;
 }
 .left-nav .items {
 	padding:0 6%;
 }
-.left-nav .items p{
+.left-nav .items p {
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: 12px;
-	color: #E2E2E2;
+	color:#E2E2E2;
 	line-height: 15px;
 }
 .left-nav .items ul {
@@ -651,7 +651,7 @@ and (max-width: 990px) {
 	text-align: center;
 	margin-right: 8px;
 }
-
+	
 /* LEFT NAVBAR SETTINGS */
 .left-nav .settings {
 	position:absolute;
@@ -693,7 +693,7 @@ and (max-width: 990px) {
 	position: relative;
 }
 .content .header {
-	margin: 0 1% 20px;
+	margin:0 1% 20px;
 }
 .content .header h1 {
 	font-family: "Lato", Helvetica, Arial, sans-serif;
@@ -706,7 +706,7 @@ and (max-width: 990px) {
 	display: inline-block;
 }
 .content .header > a {
-	float:right;
+	float: right;
 }
 .content-item {
 	width: 96%;
@@ -740,12 +740,12 @@ and (max-width: 990px) {
 @media (min-width: 768px) {
 	.content {
 		padding: 1.5em 5%;
-		float:right;
-		width:90%;
+		float: right;
+		width: 90%;
 		position: relative;
 	}
 	.content > .container {
-		width:700px;
+		width: 700px;
 	}
 	.content-item {
 		width:31.33333%;
@@ -769,7 +769,7 @@ and (max-width: 990px) {
 }
 
 .item-box > img {
-	position: absolute:
+	position: absolute;
 	height:100%;
 	width:auto;
 	top:0;
