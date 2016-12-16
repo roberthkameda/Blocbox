@@ -11,7 +11,7 @@
 .dropit {
     list-style: none;
 	padding: 0;
-	margin: 15px 0 0;
+	margin: 0px 0 0;
     float: right;
     display: inline-block;
 }
@@ -44,6 +44,17 @@
     z-index: 1;
     top: -8px;
     right: 10px;
+}
+.dropit-submenu {
+    display: none;
+    list-style: none;
+    margin: 20px 0 0;
+    min-width: 100px;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    z-index: 1000;
 }
 .dropit .dropit-open .dropit-submenu li {
     display: block;

@@ -717,9 +717,6 @@ and (max-width: 990px) {
 	text-align: center; 
 	margin-right: 8px;
 }
-.left-nav .settingmenu {
-	
-}
 	
 /* LEFT NAVBAR SETTINGS */
 .left-nav .settings {
@@ -753,7 +750,10 @@ and (max-width: 990px) {
 	margin-right:10px;
 	margin-top:8px;
 }
-.
+.left-nav .settings .dropit .dropit-submenu {
+    bottom: 100%;
+    top: inherit;
+}
 /* CONTENT */
 .content {
 	padding: 6em 1% 1.5em;
